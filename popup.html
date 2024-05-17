@@ -1,0 +1,36 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Email Scraper</title>
+      <script src="popup.js"></script>
+    </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 300px;
+        }
+        #email-count {
+            margin-bottom: 10px;
+        }
+        #email-results {
+            max-height: 150px;
+            overflow-y: auto;
+        }
+        button {
+            margin-top: 10px;
+        }
+        </style>
+    <body>
+        <h1>Email Scraper</h1>
+        <div id="email-count">Number of Emails: <span id="email-count-value"></span></div>
+        <div id="email-results"></div>
+        <button id="refresh-result">Refresh</button>
+        <button id="copy">Copy</button>
+        <button id="download-csv">Download CSV</button>
+        <button id="send-email">Send Email via Gmail</button>
+    </body>
+    </html>
+    
+    
